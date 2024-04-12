@@ -6,23 +6,36 @@ Campus Pool aims to revolutionize campus transportation by connecting students w
 
 ## Key Features
 **Ride Creation**: Students can create ride requests, specifying their origin, destination, and preferred time.
+
 **Ride Joining**: Other students can join existing rides based on their schedules and preferences.
+
 **In-App Chat**: Communicate with fellow riders to coordinate details or ask questions.
+
 **Bill Splitting**: Easily divide ride costs among participants.
 
 ## How It Works
 **User Profiles**: Students create profiles with their details, including their status as day scholars or hostellers.
+
 **Ride Requests**: Day scholars can request rides, and hostellers can offer rides.
+
 **Matching Algorithms**: Our robust algorithms match riders and drivers based on schedules, locations, and preferences.
+
 **Convenient Communication**: In-app chat allows users to discuss ride details and coordinate effectively.
+
 **Safety First**: We prioritize safety by verifying user profiles and providing essential safety guidelines.
 
 ## Benefits
+
 ### For Day Scholars:
+
 Reliable alternative when public transit or shuttle services are unavailable or inconvenient.
+
 Opportunity to travel with fellow students and build connections.
+
 ### For Hostellers:
+
 Easily find rides for weekend outings, airport transfers, or railway station drop-offs.
+
 Contribute to a greener campus by sharing rides.
 
 
