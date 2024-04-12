@@ -3,12 +3,6 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import Card from '../../components/Card/Card'
 import { getDatabase, ref, get } from "firebase/database";
-import { BsFillPersonFill } from "react-icons/bs";
-import { FaMapMarkedAlt } from "react-icons/fa";
-import { BsCalendar2DateFill } from "react-icons/bs";
-import { RiSearchEyeFill } from "react-icons/ri";
-import { BsFillCarFrontFill } from "react-icons/bs";
-import { ImPriceTags } from "react-icons/im";
 
 const YourRide = ({user, theme, setTheme}) => {
 
@@ -28,6 +22,8 @@ const YourRide = ({user, theme, setTheme}) => {
   .catch((error) => {
     console.error("Error reading data:", error);
   });
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
 },[])
   
   console.log("Data:", rides);

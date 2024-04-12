@@ -3,19 +3,15 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Filters from '../../components/Filters/Filters';
 import { getDatabase, ref, get, set} from "firebase/database";
-import { async } from '@firebase/util';
 import { BsFillPersonFill } from "react-icons/bs";
-import { FaJoint, FaMapMarkedAlt } from "react-icons/fa";
+import { FaMapMarkedAlt } from "react-icons/fa";
 import { BsCalendar2DateFill } from "react-icons/bs";
 import { RiSearchEyeFill } from "react-icons/ri";
 import { BsFillCarFrontFill } from "react-icons/bs";
 import { ImPriceTags } from "react-icons/im";
-// import {doc, getDoc, ref, getFirestore} from "firebase/firestore";
-// import { app } from '../../App';
 
 
 const LookRide = ({user, theme, setTheme}) => {
-  // This is just dummy data. Replace it with your actual data.
 
   
   const db = getDatabase();
@@ -34,6 +30,8 @@ const LookRide = ({user, theme, setTheme}) => {
     .catch((error) => {
       console.error("Error reading data:", error);
     });
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   
   console.log("Data:", rides);
